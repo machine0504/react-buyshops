@@ -1,0 +1,164 @@
+.edit_address {
+    width: 100%;
+    height: auto;
+}
+
+.edit_address .head {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.edit_address .head .edit_address-head-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.edit_address .head .edit_address-head-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.edit_address .head .edit_address-head-txt {
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    font-family: "Microsoft YaHei";
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+.content .user-address {
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: 1px solid #efefef;
+}
+
+.content .user-address .item1 {
+    width: 20%;
+    height: 100%;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 0.7rem;
+    color: #000000;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.content .details-address {
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.content .details-address .item1 {
+    width: 20%;
+    height: 100%;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #000000;
+    font-size: 0.7rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content .details-address .item2 {
+    width: 80%;
+    height: 100%;
+}
+
+.content .details-address .item2 input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2.5rem;
+    font-size: 0.7rem;
+}
+.content .remark{
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    display: -webkit-flex;
+}
+.content .remark .item{
+    width: 20%;
+    height: 100%;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #000000;
+    font-size: 0.7rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content .remark .tag {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-around;
+    justify-content: -webkit-space-around;
+    align-items: center;
+    align-items: -webkit-center;
+}
+
+.content .set {
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.content .set .item1 {
+    width: 20%;
+    height: 100%;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #000000;
+    font-size: 0.7rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content .set .item2 {
+    width: 80%;
+    height: 100%;
+}
+
+.content .set .item2 input {
+    width: 0.9rem;
+    height: 0.9rem;
+    margin-top: 0.8rem;
+}
+
+.content .save {
+    width: 100%;
+    height: auto;
+}
+
+.content .save button {
+    width: 70%;
+    height: 2rem;
+    display: block;
+    margin: 0.5rem 15%;
+    border: none;
+    background: #fd8019;
+    font-size: 0.9rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #ffffff;
+}

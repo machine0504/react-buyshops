@@ -1,0 +1,461 @@
+/* 搜索头部 */
+
+.search-head {
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid #efefef;
+    background: #ffffff;
+    display: flex;
+    display: -webkit-flex;
+    position: fixed;
+    z-index: 1;
+    left: 0rem;
+    top: 0rem;
+}
+
+.search-head .search-head-img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.5rem;
+    text-align: center;
+}
+
+.search-head .search-head-img img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.25rem;
+}
+
+.search-head .search-head-txt {
+    width: 75%;
+    height: 1.5rem;
+    background: #eaeaea;
+    margin-top: 0.25rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.search-head .search-head-txt .txt-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    text-align: center;
+}
+
+.search-head .search-head-txt .txt-img img {
+    width: 1.1rem;
+    height: 1rem;
+    margin-top: 0.25rem;
+}
+
+.search-head .search-head-txt input {
+    width: 90%;
+    background: #eaeaea;
+    border: none;
+    font-size: 0.7rem;
+}
+
+.search-head .search-head-spa {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2rem;
+    margin-left: 0.25rem;
+}
+
+/* 价格排序 */
+
+.search-price {
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid #efefef;
+    background: #ffffff;
+    display: flex;
+    display: -webkit-flex;
+    position: fixed;
+    z-index: 1;
+    left: 0rem;
+    top: 2.05rem;
+}
+
+.search-price .order-wrap {
+    width: auto;
+    height: auto;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.search-price .order-wrap.hide {
+    width: auto;
+    height: auto;
+    display: flex;
+    display: -webkit-flex;
+    display: none;
+}
+
+.search-price .order {
+    width: 1.8rem;
+    height: 1rem;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.search-price .order-img {
+    width: 1rem;
+    height: 1rem;
+    padding-top: 0.5rem;
+}
+
+.search-price .order-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.search-price .order-num {
+    width: 3rem;
+    height: 1rem;
+    text-align: center;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+    margin-left: 1rem;
+}
+
+/* 隐藏综合内容 */
+
+.order-item {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    position: fixed;
+    z-index: 1;
+    left: 0rem;
+    top: 4.1rem;
+}
+
+.order-item.hide {
+    display: none;
+}
+
+.order-item .order-item1 {
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 0.7rem;
+    line-height: 2rem;
+    padding-left: 0.6rem;
+}
+
+/* 内容 */
+
+.order-content {
+    width: 100%;
+    height: auto;
+    background: #ffffff;
+    margin-top: 4.2rem;
+}
+
+.order-content .notfound {
+    width: 100%;
+    height: 100%;
+}
+
+.order-content .notfound .image {
+    width: 100%;
+    height: 70%;
+}
+
+.order-content .notfound .image img {
+    width: 100%;
+    height: 100%;
+}
+
+.order-content .notfound .font {
+    width: 100%;
+    height: 12rem;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 12rem;
+    color: #ccc;
+}
+
+.order-content .show {
+    widows: 100%;
+    height: auto;
+}
+
+.order-content .content-item {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    display: -webkit-flex;
+    margin-top: 1rem;
+}
+
+.order-content .content-item .cont-img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.order-content .content-item .cont-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.order-content .content-txt {
+    width: 12.2rem;
+    height: 5.25rem;
+    margin-left: 1rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.order-content .content-txt .text {
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.order-content .content-txt .price {
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    color: #f93036;
+    font-size: 0.8rem;
+}
+
+.order-content .content-txt .sold {
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    color: #969696;
+    font-size: 0.6rem;
+}
+
+.order-content .content-txt .sold span {
+    color: orange;
+}
+
+/* 筛选 */
+
+.mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    left: 0rem;
+    top: 0rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.mask.hide {
+    display: none;
+}
+
+.screen {
+    width: 90%;
+    height: 100%;
+    position: fixed;
+    z-index: 100;
+    top: 0rem;
+    right: 0rem;
+    background: #ffffff;
+}
+
+.screen.hide {
+    display: none;
+}
+
+.s-item {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.s-item .item {
+    width: 100%;
+    height: 2rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+
+.s-item .item .item-hide {
+    font-size: 0.8rem;
+    color: #FDA208;
+    line-height: 2rem;
+}
+
+.s-item .item-txt {
+    width: auto;
+    height: auto;
+    font-size: 0.8rem;
+    color: #000;
+    margin-top: 0.6rem;
+    margin-left: 0.5rem;
+}
+
+.s-item .item-arr {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.6rem;
+    margin-right: 0.5rem;
+}
+
+.s-item .item-arr.hide {
+    display: none;
+}
+
+.s-item .item-arr img {
+    width: 100%;
+    height: 100%;
+}
+
+.s-item .content, .s-price .content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s-item .content.hide {
+    display: none;
+}
+
+.s-price .content.hide {
+    display: none;
+}
+
+.s-item .content .conc-item, .s-price .content .conc-item {
+    width: 31%;
+    height: 1.6rem;
+    border-radius: 0.15rem;
+    background: #efefef;
+    text-align: center;
+    line-height: 1.6rem;
+    font-size: 0.7rem;
+    margin-bottom: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
+    overflow: hidden;
+    color: #323232;
+    font-style: normal;
+}
+.s-item .content .conc-item.back, .s-price .content .conc-item.back{
+    background: #FDA208; color: #fff
+}
+.s-price {
+    width: 100%;
+    height: auto;
+}
+
+.s-price .item {
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.s-price .item .item-wrap {
+    width: auto;
+    height: auto;
+    display: flex;
+    display: -webkit-flex;
+    margin-left: 2.5rem;
+}
+
+.s-price .item .item1 {
+    font-size: 0.8rem;
+    color: #000;
+    margin-top: 0.4rem;
+    margin-left: 0.4rem;
+    width: 4rem;
+    height: auto;
+}
+
+.s-price .item .item2, .s-price .item .item4 {
+    font-size: 0.7rem;
+    color: #ccc;
+    border: 1px solid #efefef;
+    height: 1rem;
+    width: 2.5rem;
+    margin-top: 0.4rem;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.s-price .item .item2 input, .s-price .item .item4 input {
+    width: 100%;
+    height: 100%;
+    outline: none;
+    color: #FDA208;
+    text-align: center;
+}
+
+.s-price .item .item3 {
+    margin-top: 0.4rem;
+}
+
+.s-price .item .item5 {
+    width: 1rem;
+    height: 1rem;
+}
+
+.s-price .item .item5.hide {
+    display: none;
+}
+
+.s-price .item .item5 img {
+    width: 100%;
+    height: 100%;
+    margin-left: 1.3rem;
+    margin-top: 0.6rem;
+}
+
+.price-bak {
+    width: 100%;
+    height: 1rem;
+    background: #efefef;
+}
+
+.price-bottom {
+    width: 90%;
+    height: 2.5rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.price-bottom .bot1 {
+    width: 33.3%;
+    height: 2.5rem;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.price-bottom .bot1 span {
+    color: #FDA208;
+}
+
+.price-bottom .bot2 {
+    background: #efefef;
+    width: 33.3%;
+    height: 2.5rem;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.price-bottom .bot3 {
+    width: 33.3%;
+    height: 2.5rem;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 2.5rem;
+    color: #fff;
+    background: #FDA208;
+}

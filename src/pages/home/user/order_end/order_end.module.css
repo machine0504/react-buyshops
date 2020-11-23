@@ -1,0 +1,86 @@
+.order-end {
+    width: 100%;
+    height: auto;
+}
+
+.order-end .head {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.order-end .head .order-end-head-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.order-end .head .order-end-head-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.order-end .head .order-end-head-txt {
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    font-family: "Microsoft YaHei";
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+.content .item1 {
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #e51b19;
+    padding-top: 0.5rem;
+}
+
+.content .item2 {
+    color: #f17f1f;
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.content .item3 {
+    color: #000;
+    width: 100%;
+    height: 1.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.content .item4 {
+    width: 50%;
+    height: 1.6rem;
+    color: #ffffff;
+    font-size: 0.6rem;
+    font-weight: bold;
+    background: #0a8ddf;
+    text-align: center;
+    line-height: 1.6rem;
+    margin-top: 0.5rem;
+    margin-left: 25%;border-radius: 0.5rem;
+}

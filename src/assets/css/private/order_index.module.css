@@ -1,0 +1,333 @@
+.order {
+    width: 100%;
+    height: auto;
+}
+
+.order .head {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.order .head .order-head-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.order .head .order-head-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.order .head .order-head-txt {
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    font-family: "Microsoft YaHei";
+}
+
+/* 没有地址时 */
+
+.address {
+    width: 100%;
+    height: 5rem;
+    background-image: url('../../images/home/index/hb.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-top: 2.5rem;
+}
+
+.address .right {
+    width: 0.8rem;
+    height: 0.8rem;
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    background-image: url('../../images/home/index/向右.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.address .text {
+    width: 80%;
+    height: 100%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-family: 'Times New Roman';
+}
+
+.nomals {
+    width: 100%;
+    height: 5rem;
+    margin-top: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    background-image: url('../../images/home/index/hb.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nomals .details {
+    width: 80%;
+    height: 100%;
+    margin-left: 5%;
+}
+
+.nomals .details .top {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    display: -webkit-flex;
+    margin-top: 5%;
+}
+
+.nomals .details .top .name, .nomals .details .top .mobile {
+    width: 50%;
+    height: 100%;
+    font-weight: bold;
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+
+.nomals .left {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    display: -webkit-flex;
+    margin-top: 5%;
+}
+
+.nomals .left .item1 {
+    width: 5%;
+    height: 1rem;
+    background-image: url('../../images/home/goods/定位.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nomals .left .item2 {
+    width: 93%;
+    height: 100%;
+    line-height: 1rem;
+    font-size: 0.7rem;
+    padding-left: 2%;
+}
+
+.nomals .rows {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nomals .rows .link {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-image: url('../../images/home/index/向右.png');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inline {
+    width: 100%;
+    height: 0.2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inline .item1 {
+    height: 0;
+    width: 10%;
+    border-bottom: 0.2rem solid #fdcd4d;
+    border-left: 0.2rem solid transparent;
+    border-right: 0.2rem solid transparent;
+    margin-right: 0.5rem;
+}
+
+.inline .item2 {
+    height: 0;
+    width: 10%;
+    border-top: 0.2rem solid #84614d;
+    border-left: 0.2rem solid transparent;
+    border-right: 0.2rem solid transparent;
+    margin-right: 0.5rem;
+}
+
+.wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.bak {
+    width: 100%;
+    height: 0.6rem;
+    background: #efefef;
+}
+
+.bar {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.bar .left {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem 1rem;
+}
+
+.bar .right {
+    width: 75%;
+    height: 100%;
+}
+
+.bar .right .item1 {
+    width: 80%;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 0.7rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
+.bar .right .item2 {
+    margin-top: 0.6rem;
+    color: #868686;
+    font-size: 0.6rem;
+}
+
+.bar .right .item3 {
+    font-size: 0.8rem;
+    color: #F51D2A;
+    margin-top: 0.6rem;
+}
+
+.bar .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.price {
+    width: 100%;
+    height: auto;
+}
+
+.price .bak {
+    width: 100%;
+    height: 0.6rem;
+    background: #efefef;
+}
+
+.price .total {
+    width: 100%;
+    height: 5rem;
+    margin-bottom: 2.5rem;
+}
+
+.price .total .item1 {
+    width: 90%;
+    display: flex;
+    display: -webkit-flex;
+    height: 2.5rem;
+    margin: 0 5%;
+}
+
+.price .total .item1 .left {
+    width: 50%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    color: #787878;
+}
+
+.price .total .item1 .right {
+    width: 50%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    text-align: right;
+    color: #F51D2A;
+}
+
+.price .total .item2 {
+    width: 90%;
+    display: flex;
+    display: -webkit-flex;
+    height: 2.5rem;
+    margin: 0 5%;
+}
+
+.price .total .item2 .left {
+    width: 50%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    color: #787878;
+}
+
+.price .total .item2 .right {
+    width: 50%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    text-align: right;
+    color: #F51D2A;
+}
+
+.foot {
+    width: 100%;
+    height: 2.5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    display: -webkit-flex;
+    z-index: 1;
+    background: #efefef;
+}
+
+.foot .left {
+    width: 66%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    overflow: hidden;
+    padding-right: 2%;
+    font-size: 0.8rem;
+    text-align: right;
+}
+
+.foot .left span {
+    color: #F51D2A;
+}
+
+.foot .right {
+    width: 32%;
+    height: 2.5rem;
+    background: #CC0004;
+    line-height: 2.5rem;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+}

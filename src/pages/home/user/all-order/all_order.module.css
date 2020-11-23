@@ -1,0 +1,58 @@
+.all-order {
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+}
+.all-order .components{
+    width: 100%;height: auto;
+}
+.all-order .head {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.all-order .head .all-order-head-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.all-order .head .all-order-head-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.all-order .head .all-order-head-txt {
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    font-family: "Microsoft YaHei";
+}
+
+.navigation {
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.navigation div {
+    width: 25%;
+    height: 100%;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 2rem;
+}
+

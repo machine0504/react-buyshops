@@ -1,0 +1,287 @@
+.order-details {
+    width: 100%;
+    height: auto;
+}
+
+.order-details .head {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.order-details .head .order-details-head-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.order-details .head .order-details-head-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.order-details .head .order-details-head-txt {
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    font-family: "Microsoft YaHei";
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+.content .item1 {
+    width: 98%;
+    height: auto;
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+    padding-left: 2%;
+    padding-bottom: 1.5rem;
+}
+
+.content .item2 {
+    width: 100%;
+    height: 0.1rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+
+.content .item2 .item {
+    width: 5%;
+    height: 100%;
+    transform: skew(-40deg, 0deg);
+    -webkit-transform: skew(-40deg, 0deg);
+    background-color: #a2dafb;
+}
+
+.content .item3 {
+    width: 100%;
+    height: 5rem;
+    background-color: #fffaf0;
+}
+
+.content .item3 .top {
+    width: 96%;
+    padding: 0 2%;
+    height: auto;
+    display: flex;
+}
+
+.content .item3 .bot {
+    width: 96%;
+    height: auto;
+    font-size: 0.7rem;
+    padding: 1rem 2% 0 2%;
+}
+
+.content .item3 .top .lef {
+    width: 60%;
+    height: 1rem;
+    padding-top: 0.5rem;
+    line-height: 1rem;
+}
+
+.content .item3 .top .lef span {
+    font-size: 0.7rem;
+}
+
+.content .item3 .top .lef img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.content .item3 .top .rig {
+    width: 40%;
+    height: 1rem;
+    padding-top: 0.5rem;
+    line-height: 1rem;
+}
+
+.content .item3 .top .rig span {
+    font-size: 0.7rem;
+}
+
+.content .item3 .top .rig img {
+    width: 1rem;
+    height: 1rem;
+}
+
+.content .item4 {
+    width: 98%;
+    height: 2rem;
+    padding-left: 2%;
+    font-size: 0.7rem;
+    line-height: 2rem;
+}
+.wrapper{
+    width: 100%;height: auto;
+}
+.content .item5 {
+    width: 96%;
+    height: 4rem;
+    padding: 0 2%;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.content .item5 .left {
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem 1rem 0.5rem 0;
+}
+
+.content .item5 .left img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .item5 .right {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.content .item5 .right .le {
+    width: 80%;
+    height: 100%;
+}
+
+.content .item5 .right .le .text {
+    width: 100%;
+    height: auto;
+    font-size: 0.7rem;
+    padding: 0.3rem 0;
+}
+
+.content .item5 .right .le .deta {
+    width: 100%;
+    height: auto;
+    font-size: 0.7rem;
+    padding: 0.3rem 0;
+}
+
+.content .item5 .right .le .deta span {
+    padding-left: 0.6rem;
+}
+
+.content .item5 .right .ri {
+    width: 20%;
+    height: 100%;
+    font-size: 0.7rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+.content .item6 {
+    width: 96%;
+    height: 2rem;
+    padding: 0 2%;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+}
+
+.content .item6 .left {
+    width: 50%;
+    height: 100%;
+    line-height: 2rem;
+    font-size: 0.7rem;
+}
+
+.content .item6 .right {
+    width: 50%;
+    height: 100%;
+    line-height: 2rem;
+    font-size: 0.7rem;
+    text-align: right;
+}
+
+.content .item7 {
+    width: 94%;
+    height: 5rem;
+    border-bottom: 1px solid #ccc;
+    padding: 0 3%;
+}
+
+.content .item7 .top {
+    width: 100%;
+    height: 1rem;
+    padding: 1rem 0;
+    display: flex;
+}
+
+.content .item7 .top .left {
+    width: 50%;
+    height: 100%;
+    line-height: 1rem;
+    font-size: 0.7rem;
+}
+
+.content .item7 .top .right {
+    width: 50%;
+    height: 100%;
+    line-height: 1rem;
+    font-size: 0.7rem;
+    text-align: right;
+    color: red;
+}
+
+.content .item7 .bot {
+    width: 100%;
+    height: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+}
+
+.content .item7 .bot .left {
+    width: 50%;
+    height: 100%;
+    line-height: 1rem;
+    font-size: 0.7rem;
+}
+
+.content .item7 .bot .right {
+    width: 50%;
+    height: 100%;
+    line-height: 1rem;
+    font-size: 0.7rem;
+    text-align: right;
+    color: red;
+}
+
+.content .item8 {
+    width: 98%;
+    height: auto;
+    padding-right: 2%;
+    text-align: right;
+    font-size: 0.7rem;
+    padding-top: 0.5rem;
+}
+
+.content .item8 span {
+    color: red;
+}
+
+.content .item9 {
+    width: 98%;
+    height: auto;
+    font-size: 0.7rem;
+    padding-right: 2%;
+    text-align: right;
+    padding-top: 0.5rem;
+}

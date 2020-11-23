@@ -1,0 +1,116 @@
+.app {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+/* 公共样式 */
+
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+input {
+    outline: none;
+    border-radius: 0px;
+    border: 0 none;
+}
+
+html, body {
+    font-size: 20px !important;
+    min-height: 100%;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* 禁止链接高亮 */
+    -webkit-touch-callout: none;
+    /* 禁止链接长按弹出选项 */
+}
+
+/* 媒体查询 */
+
+@media screen and (min-width:320px) {
+    html, body {
+        font-size: 17.06px !important;
+    }
+}
+@media screen and (min-width:360px) {
+    html, body {
+        font-size: 19.2px !important;
+    }
+}
+@media screen and (min-width:375px) {
+    html, body {
+        font-size: 20px !important;
+    }
+}
+@media screen and (min-width:400px) {
+    html, body {
+        font-size: 21.3px !important;
+    }
+}
+
+@media screen and (min-width:414px) {
+    html, body {
+        font-size: 22.08px !important;
+    }
+}
+
+@media screen and (min-width:480px) {
+    html, body {
+        font-size: 25.6px !important;
+    }
+}
+
+@media screen and (min-width:768px) {
+    html, body {
+        font-size: 40.96px !important;
+    }
+}
+@media screen and (min-width:1024px) {
+    html, body {
+        font-size: 54.61px !important;
+    }
+}
+.load {
+    width: 5rem;
+    height: 5rem;
+    background-image: url('../../images/home/index/timg.gif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    z-index: 999;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    display: none;
+}
+/* 改变引用的对话框样式 */
+.am-modal-body{
+    color: #000 !important;font-weight: bold;font-size: 0.9rem !important;
+}
+/* 改变引用list1样式 */
+.am-list-header{
+    font-size: 0.7rem !important;color: #000 !important;
+}
+/* 改变引用input样式 */
+.item .am-input-control{
+    opacity: 0;z-index: 1;
+}
+/* 改变引用img样式 */
+.am-input-label-5 img{
+    width: 1.5rem !important;height: 1.5rem !important;position: fixed !important;top: 3.1rem !important;right: 3rem !important;
+}
+.hide{
+    display: none;
+}
+
+
+

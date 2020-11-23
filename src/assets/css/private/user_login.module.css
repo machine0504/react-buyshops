@@ -1,0 +1,143 @@
+.login {
+    width: 100%;
+    height: auto;
+}
+
+.login .head {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    /* position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0; */
+}
+
+.login .head .login-head-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.login .head .login-head-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.login .head .login-head-txt {
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    font-family: "Microsoft YaHei";
+}
+
+.login .content {
+    background: #ffffff;
+    width: 100%;
+    height: auto;
+}
+
+.login .content .mobile {
+    width: 90%;
+    height: 2.2rem;
+    border: 1px solid #cccccc;
+    margin: 1rem 5% 0 5%;
+}
+
+.login .content .mobile .item {
+    width: 80%;
+    height: 2.2rem;
+}
+
+.login .content .pas {
+    width: 90%;
+    height: 2.2rem;
+    border: 1px solid #cccccc;
+    margin: 1rem 5% 0 5%;
+    display: flex;
+}
+
+.login .content .pas .item {
+    width: 80%;
+    height: 2.2rem;
+}
+
+.login .content .pas .item1 {
+    width: 20%;
+    height: 2.2rem;
+}
+
+.login .content .pas .item1 .swtich {
+    width: 2.55rem;
+    height: 1.55rem;
+    margin-left: 0.5rem;
+    margin-top: 0.325rem;
+}
+
+.login .content .btn {
+    width: 90%;
+    height: 2.2rem;
+    border: 1px solid #cccccc;
+    margin: 1rem 5% 0 5%;
+    background: #EB1625;
+    color: #ffffff;
+    line-height: 2.2rem;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.login .content .icon {
+    width: 90%;
+    height: 2.2rem;
+    margin: 1rem 5% 0 5%;
+    display: flex;
+}
+
+.login .content .icon .left {
+    width: 50%;
+    height: 2rem;
+    line-height: 2rem;
+    display: flex;
+}
+
+.login .content .icon .left .t1 {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.login .content .icon .left .t1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.login .content .icon .left .t2 {
+    font-size: 0.7rem;
+    margin-left: 0.2rem;
+}
+
+.login .content .icon .right {
+    width: 50%;
+    height: 2rem;
+    line-height: 2rem;
+    display: flex;flex-direction: row-reverse;
+}
+
+.login .content .icon .right .t1 {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.login .content .icon .right .t1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.login .content .icon .right .t2 {
+    font-size: 0.7rem;
+    margin-left: 0.2rem;
+}

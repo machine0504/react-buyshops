@@ -1,0 +1,96 @@
+.user-info {
+    width: 100%;
+    height: auto;
+}
+
+.user-info .head {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.user-info .head .user-info-head-img {
+    width: 8%;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.user-info .head .user-info-head-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-info .head .user-info-head-txt {
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    font-family: "Microsoft YaHei";
+}
+
+.user-info .head .save {
+    width: 12%;
+    height: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 2.5rem;
+    font-family: "Microsoft YaHei";
+}
+
+.content {
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+.content .item1 {
+    width: 100%;
+    height: 3rem;
+}
+
+.content .uploadimg {
+    width: 100%;
+    height: 2.9rem;
+    display: flex;
+}
+
+.content .uploadimg .text {
+    width: 20%;
+    height: 100%;
+    font-size: 0.85rem;
+    line-height: 2.9rem;
+    margin-left: 1.5rem;
+}
+
+.content .uploadimg img {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: fixed;
+    top: 3.1rem;
+    right: 3rem;
+}
+
+.content .uploadimg input {
+    width: 64%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+}
+
+.content .uploadimg .arrow {
+    background-image: url('../../../../assets//images//home/index/11.svg');
+    width: 0.75rem;
+    height: 0.75rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 1.1rem;
+}

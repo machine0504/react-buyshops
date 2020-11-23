@@ -1,0 +1,65 @@
+/* 商品评价界面 */
+
+.item {
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+}
+.item .recommen {
+    width: 90%;
+    margin-left: 5%;
+    height: auto;
+    text-align: left;
+    padding: 1rem 0 4.5rem 0;
+}
+
+.item .recommen .txt {
+    font-size: 0.8rem;
+    color: #000;
+    width: 100%;
+    height: auto;
+}
+.item .recommen .view {
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+}
+
+.item .recommen .view .user {
+    width: 100%;
+    height: 1.8rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.item .recommen .view .user img {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 100%;
+}
+
+.item .recommen .view .user .name {
+    font-size: 0.8rem;
+    color: #000;
+    width: 50%;
+    height: auto;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.item .recommen .view .point {
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    overflow: hidden;
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+.item .recommen .view .time {
+    font-size: 0.7rem;
+    width: 100%;
+    height: auto;
+    margin-top: 0.5rem;
+    color: #7b7f82;
+}

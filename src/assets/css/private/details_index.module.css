@@ -1,0 +1,79 @@
+.page {
+    width: 100%;
+    height: 100%;
+}
+
+/* 商品详情头部 */
+
+.page .header {
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: 1px solid #efefef;
+    background: #fff;
+    display: -webkit-flex;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header .return {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.header .return img {
+    width: 100%;
+    height: 100%;
+}
+
+.header .content {
+    width: 63%;
+    height: 2.5rem;
+    display: -webkit-flex;
+    display: flex;
+    margin-left: 2rem;
+}
+
+.header .content div {
+    font-size: 0.9rem;
+    width: 19%;
+    height: 96%;
+    line-height: 2.5rem;
+    text-align: center;
+    margin-right: 15%;
+}
+
+/* .header .content .goods {
+    border-bottom: 2px solid #FDA208;
+} */
+
+.header .cart {
+    width: 1.9rem;
+    height: 70%;
+    padding-top: 0.4rem;
+    margin-left: 0.2rem;
+    background-image: url('../../images/home/cart1.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header .cart .spot {
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 100%;
+    background: red;
+    margin-left: 1.4rem;
+}
+.header .cart .spot.hide{
+    display: none;
+}
+/* 引入子组件 */
+
+.page .components {
+    width: 100%;
+}

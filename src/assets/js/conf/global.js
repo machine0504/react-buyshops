@@ -1,0 +1,10 @@
+//全局的变量模型
+(function(global){
+    global.global={};
+    //记录页面滚动的位置
+    global.scrollTop={
+        index:0,//首页
+        goodsDeatils:0,//商品详情页
+    }
+    module.exports=global;
+})(window);

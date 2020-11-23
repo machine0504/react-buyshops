@@ -1,0 +1,174 @@
+.page {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 99;
+    left: 0rem;
+    top: 0rem;
+    background-color: #ffffff;
+}
+
+/* 搜索头部 */
+
+.page .search-head {
+    width: 100%;
+    height: 2.5rem;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.page .search-head .search-x {
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+
+.page .search-head .search-x img {
+    width: 1rem;
+    height: 1rem;
+    margin-top: 0.75rem;
+}
+
+.page .search-head .search-center {
+    height: 1.5rem;
+    width: 78%;
+    margin-top: 0.5rem;
+    background: #ffffff;
+    border: 1px solid #b2b2b2;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    display: flex;
+}
+
+.page .search-head .search-center input {
+    width: 80%;
+    height: 100%;
+    margin-left: 0.5rem;
+    margin-right: 0.75rem;
+    font-size: 0.7rem;
+    outline: none;
+}
+
+.page .search-head .search-center .search-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url('../../assets//images//home/search//搜索.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border-left: 1px solid #b2b2b2;
+}
+
+/* 搜索内容 */
+
+.page .search-content {
+    width: 100%;
+    margin-top: 0.6rem;
+    height: auto;
+    background: #ffffff;
+}
+
+.page .search-content .search-title-wrap {
+    width: auto;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    justify-content: -webkit-space-between;
+}
+
+.page .search-content .search-title-wrap .search-title {
+    width: auto;
+    font-size: 0.7rem;
+}
+
+.page .search-content .search-title-wrap .bin {
+    width: 1rem;
+    height: 1rem;
+    background-image: url('../../assets//images//home/search/垃圾桶.png');
+    background-size: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.page .search-content .search-word-wrap {
+    width: auto;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+   -webkit-justify-content:flex-start ;
+    margin-top: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page .search-content .search-word-wrap .search-word {
+    width: 29%;
+    height: 1rem;
+    color: #717376;
+    border: 1px solid #efefef;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 1rem;
+    overflow: hidden;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    display: block;
+}
+.page .search-content .search-word-wrap .search-word.search-hide{
+    display: none;
+}
+/* 搜索明细 */
+.page .search-classify{
+    width: 100%;
+    margin-top: 0.6rem;
+    height: auto;
+    background: #ffffff;
+}
+.page .search-classify .search-title-wrap{
+    width: auto;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    justify-content: -webkit-space-between;
+}
+.page .search-classify .search-title-wrap .search-title{
+    width: auto;
+    font-size: 0.7rem;
+}
+.page .search-classify  .search-word-wrap {
+    width: auto;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-start;
+   -webkit-justify-content:flex-start ;
+    margin-top: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page .search-classify  .search-word-wrap .search-word {
+    width: 29%;
+    height: 1rem;
+    color: #717376;
+    border: 1px solid #efefef;
+    border-radius: 0.5rem;
+    font-size: 0.7rem;
+    text-align: center;
+    line-height: 1rem;
+    overflow: hidden;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}

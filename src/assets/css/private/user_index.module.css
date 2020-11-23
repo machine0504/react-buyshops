@@ -1,0 +1,142 @@
+.user {
+    width: 100%;
+    height: auto;
+    overflow-y: scroll;
+}
+
+.user .avtar {
+    width: 100%;
+    height: 7rem;
+    background-image: url('../../images/home/index/redbak.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+}
+
+.user .avtar .img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+}
+
+.user .avtar .img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.user .avtar span {
+    font-size: 0.6rem;
+    color: #ffffff;
+}
+
+.user .avtar .sp1 {
+    position: absolute;
+    left: 5rem;
+    top: 55%;
+}
+
+.user .avtar .sp2 {
+    position: absolute;
+    left: 5rem;
+    top: 70%;
+}
+
+.user .ident {
+    width: 100%;
+    height: 2rem;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+}
+
+.user .ident .left {
+    width: auto;
+    height: 100%;
+    font-size: 0.7rem;
+    line-height: 2rem;
+    padding-left: 3%;
+}
+
+.user .ident .right {
+    width: auto;
+    height: 100%;
+    font-size: 0.7rem;
+    line-height: 2rem;
+    padding-right: 3%;
+}
+
+.user .order {
+    width: 100%;
+    height: 3.5rem;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.user .order .item1 {
+    width: 2.3rem;
+    height: 2.1rem;
+}
+
+.user .order .item1 .item2 {
+    font-size: 0.6rem;
+    width: 2.3rem;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user .order .item1 .item2 img {
+    width: 1.5rem;
+    height: 100%;
+}
+
+.user .order .item1 .item3 {
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.user .order .item1 .s-item3 {
+    width: 3.0rem;
+    height: 0.6rem;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+.user .inline {
+    width: 100%;
+    height: 0.75rem;
+    background: #cccccc;
+}
+
+.user .list {
+    width: 100%;
+    height: auto;
+}
+
+.user .btn {
+    width: 70%;
+    height: 2rem;
+    background: #E51B19;
+    font-size: 0.8rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 1rem;
+    margin-left: 15%;
+}
+.wrapper{
+    width: 100%;height: auto;margin-bottom: 3.5rem;
+}

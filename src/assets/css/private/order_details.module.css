@@ -1,0 +1,87 @@
+.order_details {
+    width: 100%;
+    height: auto;
+}
+
+.order_details .head {
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    display: -webkit-flex;
+    background: #ffffff;
+    border-bottom: 1px solid #cccccc;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+}
+
+.order_details .head .order_details-head-img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 0.5rem;
+}
+
+.order_details .head .order_details-head-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.order_details .head .order_details-head-txt {
+    width: 80%;
+    text-align: center;
+    height: 100%;
+    line-height: 2.5rem;
+    font-size: 0.8rem;
+    font-family: "Microsoft YaHei";
+}
+
+/* 订单内容 */
+
+.content {
+    width: 100%;
+    height: auto;
+    margin-top: 2.5rem;
+}
+
+.content .item1 {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.content .item1 .left {
+    width: 20%;
+    height: 100%;
+    position: relative;
+}
+
+.content .item1 .left .img {
+    width: 50%;
+    height: 2rem;
+    position: absolute;
+    top: 1rem;
+    left: 25%;
+    background-image: url('../../images//home//order/地图.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.content .item1 .right {
+    width: 80%;
+    height: 100%;
+}
+.content .item1 .right .item1{
+    width: 100%;height: 1rem;font-size: 0.8rem;margin-top: 0.7rem;line-height: 1rem;
+}
+.content .item1 .right .item1 span{
+    font-size: 0.7rem;color: #cccccc;
+}
+.content .item1 .right .item2{
+    width: 100%;height: auto;font-size: 0.8rem;margin-top: 0.3rem;
+}
+.content .inline{
+    width: 100%;height: 0.5rem;background: #efefef;
+}

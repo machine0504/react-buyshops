@@ -1,0 +1,693 @@
+.page {
+    margin-bottom: 2.5rem;overflow-x: hidden;
+}
+
+/* 顶部搜索 */
+
+.search-header {
+    width: 100%;
+    height: 2.5rem;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    z-index: 10;
+    background: linear-gradient(rgba(1, 1, 1, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* 兼容港版iOS */
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+
+.search-header.red-bg {
+    background: linear-gradient(rgb(235, 22, 37) 0%, rgba(255, 255, 255, 0) 100%);
+}
+
+.search-header .classify-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-image: url('../../images/home/index/class.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.search-header .search-wrap {
+    width: 12.2rem;
+    height: 1.3rem;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    /* 兼容港版iOS */
+    display: -webkit-flex;
+    -webkit-align-items: center;
+}
+
+.search-header .search-wrap .search-icon {
+    width: 15%;
+    height: 1.5rem;
+    background-image: url('../../images//home/index/Search.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.search-header .search-wrap .search-text {
+    width: 85%;
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+
+.search-header .login-wrap {
+    width: 3rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 兼容港版iOS */
+    display: -webkit-flex;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+}
+
+.search-header .login-wrap .login-text {
+    font-size: 0.8rem;
+    color: #ffffff;
+}
+.search-header .login-wrap .myimg{
+    width: 1.5rem;height: 1.5rem;margin: 0.25rem 0.75rem
+}
+.search-header .login-wrap .myimg img{
+    width: 100%;height: 100%;
+}
+/* 轮播图 */
+
+.swiper-wrap {
+    width: 100%;
+    height: 9.1rem;
+    position: relative;
+    z-index: 1;
+}
+
+.swiper-wrap img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 分类 */
+
+.quick-nav {
+    width: 100%;
+    height: 4rem;
+    background: #ffffff;
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* 兼容港版iOS */
+    display: -webkit-flex;
+    -webkit-justify-content: space-betwee;
+    -webkit-align-items: center;
+}
+
+.quick-nav .item {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 兼容港版iOS */
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+    -webkit-align-items: center;
+}
+
+.quick-nav .item .item-img {
+    width: 2rem;
+    height: 2rem;
+}
+
+.quick-nav .item .item-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.quick-nav .item .item-text {
+    font-size: 0.7rem;
+    color: #7b7f82;
+    margin-top: 0.5rem;
+}
+
+/* 产品细分 */
+
+.goods-group {
+    width: 100%;
+    background: #ffffff;
+    margin-top: 0.5rem;
+}
+
+.goods-group .classify-title.color1 {
+    width: 100%;
+    height: 1.55rem;
+    font-size: 0.7rem;
+    color: #3bf789;
+    text-align: center;
+    line-height: 1.55rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+.goods-group .classify-title.color2 {
+    width: 100%;
+    height: 1.55rem;
+    font-size: 0.7rem;
+    color: #f73b61;
+    text-align: center;
+    line-height: 1.55rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+.goods-group .classify-title.color3 {
+    width: 100%;
+    height: 1.55rem;
+    font-size: 0.7rem;
+    color: #3bbcf7;
+    text-align: center;
+    line-height: 1.55rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+.goods-group .classify-header {
+    width: 100%;
+    height: 6rem;
+    border-bottom: 1px solid #cccccc;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-header .classify-header-left {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.goods-group .classify-header .classify-header-left .desc {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #323232;
+    width: 96%;
+    height: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.goods-group .classify-header .classify-header-left .text {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-header .classify-header-left .text .left {
+    width: 43%;
+    height: 1rem;
+    font-size: 0.6rem;
+    color: #cb385d;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.goods-group .classify-header .classify-header-left .text .right.color1 {
+    width: 2rem;
+    height: 1rem;
+    font-size: 0.7rem;
+    background-color: #F21D4F;
+    color: #ffffff;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1rem;
+}
+.goods-group .classify-header .classify-header-left .text .right.color3 {
+    width: 2rem;
+    height: 1rem;
+    font-size: 0.7rem;
+    background-color: #3bf789;
+    color: #ffffff;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.goods-group .classify-header .classify-header-left .img {
+    width: 7.5rem;
+    height: 3.65rem;
+    margin-top: 0.2rem;
+    margin-left: 0.825rem;
+}
+
+.goods-group .classify-header .classify-header-right {
+    width: 50%;
+    height: 100%;
+}
+
+.goods-group .classify-header .classify-header-right .top {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-header .classify-header-right .bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-header .classify-header-right .top .left {
+    width: 4.7rem;
+    height: 3rem;
+}
+
+.goods-group .classify-header .classify-header-right .bottom .left {
+    width: 4.7rem;
+    height: 3rem;
+}
+
+.goods-group .classify-header .classify-header-right .top .left p:nth-child(1) {
+    font-size: 0.7rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #323232;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.goods-group .classify-header .classify-header-right .bottom .left p:nth-child(1) {
+    font-size: 0.7rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #323232;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.goods-group .classify-header .classify-header-right .top .left p:nth-child(2) {
+    font-size: 0.6rem;
+    color: #7b7f82;
+    margin-left: 0.2rem;
+}
+
+.goods-group .classify-header .classify-header-right .bottom .left p:nth-child(2) {
+    font-size: 0.6rem;
+    color: #7b7f82;
+    margin-left: 0.2rem;
+}
+
+.goods-group .classify-header .classify-header-right .top .right {
+    width: 3rem;
+    height: 2.9rem;
+    margin-left: 0.5rem;
+}
+
+.goods-group .classify-header .classify-header-right .bottom .right {
+    width: 3rem;
+    height: 2.9rem;
+    margin-left: 0.5rem;
+}
+
+.goods-group .classify-header .classify-header-right .top .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods-group .classify-header .classify-header-right .bottom .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods-group .classify-center {
+    width: 100%;
+    height: 7.5rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-center .item {
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid #cccccc;
+    box-sizing: border-box;
+    font-size: 0.6rem;
+    color: #7b7f82;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.goods-group .classify-center .item .desc {
+    font-size: 0.7rem;
+    font-weight: 700;
+    width: 100%;
+    height: 1.5rem;
+    line-height: 2rem;
+    overflow: hidden;
+    text-align: center;
+    color: #323232;
+}
+
+.goods-group .classify-center .item .img {
+    width: 80%;
+    height: 3.7rem;
+    margin: 0 10% 0.25rem 10%
+}
+
+.goods-group .classify-center .item .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods-group .classify-center .item .price {
+    width: 100%;
+    height: 1rem;
+    color: #d32a4e;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    text-align: center;
+}
+
+.goods-group .classify-header1 {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    display: -webkit-flex;
+    border-bottom: 1px solid #cccccc;
+}
+
+.goods-group .classify-header1 .item {
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.goods-group .classify-header1 .item .desc {
+    font-size: 0.7rem;
+    color: #323232;
+    font-weight: 700;
+    overflow: hidden;
+    width: 100%;
+    height: 1.4rem;
+    text-align: center;
+    line-height: 1.4rem;
+}
+
+.goods-group .classify-header1 .item .desc1 {
+    width: 100%;
+    height: 0.7rem;
+    font-size: 0.6rem;
+    color: #7b7f82;
+    text-align: center;
+}
+
+.goods-group .classify-header1 .item .img {
+    width: 3rem;
+    height: 3.5rem;
+    margin-left: 3.3rem;
+}
+
+.goods-group .classify-header1 .item .img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 电脑办公 */
+
+.goods-group .classify-title-1 {
+    width: 100%;
+    height: 1.55rem;
+    font-size: 0.7rem;
+    color: #5fc600;
+    text-align: center;
+    line-height: 1.55rem;
+    border-bottom: 1px solid #cccccc;
+}
+
+.goods-group .classify-header2 {
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-header2 .item1 {
+    width: 50%;
+    height: 100%;
+    border-right: 1px #cccccc solid;
+    border-bottom: 1px #cccccc solid;
+    box-sizing: border-box;
+}
+
+.goods-group .classify-header2 .item1 .desc {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: #323232;
+    width: 96%;
+    height: 0.8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    padding-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.goods-group .classify-header2 .item1 .text {
+    width: 100%;
+    height: 1rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-header2 .item1 .text .left {
+    width: 43%;
+    height: 1rem;
+    font-size: 0.6rem;
+    color: #cb385d;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+
+.goods-group .classify-header2 .item1 .text .right {
+    width: 2rem;
+    height: 1rem;
+    font-size: 0.7rem;
+    background-color: #5FC600;
+    color: #ffffff;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.goods-group .classify-header2 .item1 .img {
+    width: 7.5rem;
+    height: 3.65rem;
+    background-image: url('../../images//home/index/nz14.jpg');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 0.2rem;
+    margin-left: 0.825rem;
+}
+
+.goods-group .classify-header2 .item2 {
+    width: 50%;
+    height: 100%;
+}
+
+.goods-group .classify-header2 .item2 .top {
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-header2 .item2 .bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-header2 .item2 .top .left {
+    width: 4.7rem;
+    height: 3rem;
+}
+
+.goods-group .classify-header2 .item2 .bottom .left {
+    width: 4.7rem;
+    height: 3rem;
+}
+
+.goods-group .classify-header2 .item2 .top .left p:nth-child(1) {
+    font-size: 0.7rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #323232;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.goods-group .classify-header2 .item2 .bottom .left p:nth-child(1) {
+    font-size: 0.7rem;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #323232;
+    margin-left: 0.2rem;
+    margin-top: 0.2rem;
+}
+
+.goods-group .classify-header2 .item2 .top .left p:nth-child(2) {
+    font-size: 0.6rem;
+    color: #7b7f82;
+    margin-left: 0.2rem;
+}
+
+.goods-group .classify-header2 .item2 .bottom .left p:nth-child(2) {
+    font-size: 0.6rem;
+    color: #7b7f82;
+    margin-left: 0.2rem;
+}
+
+.goods-group .classify-header2 .item2 .top .right {
+    width: 3rem;
+    height: 2.9rem;
+    margin-left: 0.5rem;
+}
+
+.goods-group .classify-header2 .item2 .bottom .right {
+    width: 3rem;
+    height: 2.9rem;
+    margin-left: 0.5rem;
+}
+
+.goods-group .classify-header2 .item2 .top .right img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods-group .classify-header2 .item2 .bottom .right img {
+    width: 100%;
+    height: 100%;
+}
+
+/* 为你推荐 */
+
+.goods-group .classify-recom {
+    width: 100%;
+    height: 2.5rem;
+    background: #f5f5f9;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-recom .left-line, .right-line {
+    width: 6.3rem;
+    height: 1.25rem;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.goods-group .classify-recom .center-line {
+    width: 6.15rem;
+    height: 1.1rem;
+    margin-top: 0.7rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .classify-recom .center-line .img {
+    width: 1.15rem;
+    height: 100%;
+}
+
+.goods-group .classify-recom .center-line .img img {
+    width: 100%;
+    height: 100%;
+}
+
+.goods-group .classify-recom .center-line .text {
+    width: 5rem;
+    height: 100%;
+    color: #000000;
+    font-size: 1rem;
+    line-height: 100%;
+    text-align: center;
+}
+
+.goods-group .item-list {
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    display: -webkit-flex;
+}
+
+.goods-group .item-list .left {
+    width: 9rem;
+    height: 100%;
+    margin: 0 0.4rem 0.6rem 0.1rem;
+}
+
+.goods-group .item-list .left .container{
+    width: 100%;
+    height: 7.25rem;
+}
+
+.goods-group .item-list .left .container img {
+    width: 7rem;
+    height: 7rem;
+    padding: 0.125rem 1rem;
+}
+
+.goods-group .item-list .left .text {
+    width: 8.7rem;
+    height: 1.5rem;
+    overflow: hidden;
+    font-size: 0.6rem;
+    font-weight: 700;
+    padding: 0 0.15rem;
+}
+
+.goods-group .item-list .left .price {
+    color: #d32a4e;
+    font-size: 0.7rem;
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+}
+
+.goods-group .footer {
+    width: 100%;
+    height: 1.5rem;
+    background: #f5f5f9;
+    font-size: 0.8rem;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #cccccc;
+}
